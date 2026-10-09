@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest a new feature or a change to an existing one.
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Anything larger than a small fix — a feature, a public API change, a new dependency — needs agreement in this issue before anyone writes code. See [CONTRIBUTING.md](https://github.com/gesso-dev/gesso/blob/main/CONTRIBUTING.md#before-you-start).
+
+        Questions go to [Discussions](https://github.com/gesso-dev/gesso/discussions).
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What you are trying to do, and why Gesso makes it hard or impossible today.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How Gesso could solve it, including the public API you have in mind, if any.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Other solutions or workarounds you considered, and why they fall short.

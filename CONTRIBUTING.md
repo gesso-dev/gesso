@@ -47,4 +47,4 @@ CI runs on every pull request: a NativeAOT publish and smoke test on Windows, Li
 
 ## Security issues
 
-Do not report vulnerabilities in public issues. Use **Report a vulnerability** on the repository's Security tab.
+Do not report vulnerabilities in public issues. Use **Report a vulnerability** on the repository's Security tab; [SECURITY.md](SECURITY.md) explains what to include and what happens next.

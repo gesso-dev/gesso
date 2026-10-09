@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question
+    url: https://github.com/gesso-dev/gesso/discussions
+    about: Ask questions about using Gesso in Discussions.
+  - name: Security vulnerability
+    url: https://github.com/gesso-dev/gesso/security/advisories/new
+    about: Report vulnerabilities privately, not in public issues.
